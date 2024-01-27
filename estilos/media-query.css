@@ -10,6 +10,10 @@ Typical Device Breakpoints:
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     section#login{
         width: 80vw;
     }
@@ -43,6 +47,10 @@ Typical Device Breakpoints:
 }
 
 @media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
     section#login{
         width: 950px;
     }
@@ -57,4 +65,20 @@ Typical Device Breakpoints:
         float: right;
         width: 50%;
     }
+
+    /* Versão com flexbox:
+
+    section#login{
+        width: 950px;
+        display: flex;
+    }
+
+    div#imagem{
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario{
+        width: 50%;
+    } */
 }
