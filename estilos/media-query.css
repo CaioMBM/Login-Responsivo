@@ -24,4 +24,37 @@ Typical Device Breakpoints:
         float: right;
         width: 70%;
     }
+
+    /* Versão com flexbox:
+
+    section#login{
+        width: 80vw;
+        display: flex;
+    }
+
+    div#imagem{
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario{
+        width: 70%;
+    } */
+}
+
+@media screen and (min-width: 992px){
+    section#login{
+        width: 950px;
+    }
+
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: right;
+        width: 50%;
+    }
 }
