@@ -66,6 +66,14 @@ Typical Device Breakpoints:
         width: 50%;
     }
 
+    div#formulario > h1{
+        text-align: 2em;
+    }
+    
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+
     /* Versão com flexbox:
 
     section#login{
