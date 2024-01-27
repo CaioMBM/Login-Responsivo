@@ -8,3 +8,20 @@ Typical Device Breakpoints:
     Desktop: 992px - 1200px
     Grandes telas: acima de 1200px
 */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section#login{
+        width: 80vw;
+    }
+
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
