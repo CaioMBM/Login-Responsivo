@@ -56,13 +56,13 @@ Typical Device Breakpoints:
     }
 
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 
@@ -71,6 +71,7 @@ Typical Device Breakpoints:
     section#login{
         width: 950px;
         display: flex;
+        flex-direction: row-reverse;
     }
 
     div#imagem{
