@@ -54,6 +54,7 @@ Typical Device Breakpoints:
 
     section#login{
         width: 950px;
+        height: 300px;
     }
 
     div#imagem{
