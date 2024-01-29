@@ -73,3 +73,26 @@ form > input[type=submit]{
 form > input[type=submit]:hover{
     background-color: #3b7c7a;
 }
+
+form > .botao{
+    width: 100%;
+    height: 40px;
+    display: block;
+    padding-top: 5px; /*Não precisa, ele usou para centralixar verticalmente*/
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    color: #2d6462;
+    background-color: white;
+}
+
+form > .botao:hover{
+    background-color: #6cd3cf;
+}
+
+form > .botao > #cartinha{
+    font-size: 1em;
+}
